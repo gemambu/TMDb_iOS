@@ -27,9 +27,6 @@ Icon
 # Thumbnails
 ._*
 
-#Config API
-TMDbCore/Config/Keys.xcconfig
-
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
@@ -87,6 +84,9 @@ playground.xcworkspace
 # Packages/
 # Package.pins
 .build/
+
+#Config API
+*.xcconfig
 
 # CocoaPods - Refactored to standalone file
 
