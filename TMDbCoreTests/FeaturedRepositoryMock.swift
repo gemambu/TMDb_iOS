@@ -10,6 +10,8 @@
 import RxSwift
 
 final class FeaturedRepositoryMock: FeaturedRepositoryProtocol {
+   
+    
 	private(set) var moviesNowPlayingCalled = false
 	private(set) var moviesNowPlayingParameters: String?
 	var moviesNowPlayingResult = Observable<[Movie]>.just([])
@@ -24,8 +26,9 @@ final class FeaturedRepositoryMock: FeaturedRepositoryProtocol {
 		return moviesNowPlayingResult
 	}
 
-	func showsOnTheAir() -> Observable<[Show]> {
-		showsOnTheAirCalled = true
-		return showsOnTheAirResult
-	}
+    
+    func showsInAir() -> Observable<[Show]> {
+        showsOnTheAirCalled = true
+        return showsOnTheAirResult
+    }
 }

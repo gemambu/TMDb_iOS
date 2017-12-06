@@ -24,6 +24,4 @@ final class MoviesRepository: MoviesRepositoryProtocol {
     func movie(withIdentifier identifier: Int64) -> Observable<MovieDetail> {
         return webService.load(MovieDetail.self, from: .movie(identifier: identifier))
     }
-    
-    
 }
