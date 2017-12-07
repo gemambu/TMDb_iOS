@@ -316,6 +316,7 @@
 		992D27B91F7FFD1F00BA79DE /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				1FDAB1AB1FD72FDA0075E0DD /* CombinedCredits.swift */,
 				992D27BA1F7FFD5E00BA79DE /* DetailSection.swift */,
 				99F0564A1F8A3DBF00A680D8 /* Credits.swift */,
 				99F0564C1F8A3E3100A680D8 /* MovieDetail.swift */,
@@ -326,7 +327,6 @@
 				1FDAB1A91FD72F720075E0DD /* DetailHeader+PersonDetail.swift */,
 				1FDAB1B31FD801F10075E0DD /* DetailHeader+ShowDetail.swift */,
 				9923A74B1F8A664C00D3A6F7 /* PosterStripItem+CastMember.swift */,
-				1FDAB1AB1FD72FDA0075E0DD /* CombinedCredits.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";

@@ -9,7 +9,7 @@ final class PersonPresenter: DetailPresenter {
     private let identifier: Int64
     private let disposeBag = DisposeBag()
     
-    private var imageTagged: String
+    private var taggedImage: TaggedImages?
     
     weak var view: DetailView?
     
@@ -21,37 +21,39 @@ final class PersonPresenter: DetailPresenter {
         self.repository = repository
         self.dateFormatter = dateFormatter
         self.identifier = identifier
-        self.imageTagged = ""
-        }
+    }
     
+
     func didLoad() {
         view?.setLoading(true)
         
-//        imageTagged = repository
-//            .image(withIdentifier: identifier)
-//            .map{
-//                $0.prefix(1).first?.file_path ?? ""
-//            }
-//            .observeOn(MainScheduler.instance)
-//            .bind(to: cell.posterView.rx.image(transitionType: kCATransitionFade))
-//            .disposed(by: disposeBag)
+             
+        repository
+            .image(withIdentifier: identifier)
+            .map{ [weak self] image in
+                if(image.first != nil){
+                    self?.taggedImage = image.first
+                }
+            }
+            .observeOn(MainScheduler.instance)
+            .subscribe()
+            .disposed(by: disposeBag)
         
         repository
             .person(withIdentifier: identifier)
             .map { [weak self] person in
-                var newPerson = person
-                newPerson.taggedImage = self?.imageTagged
-                return self?.detailSections(for: person) ?? []
-                
-                }
-                .observeOn(MainScheduler.instance)
-                .subscribe(onNext: { [weak self] sections in
-                    self?.view?.update(with: sections)
-                    },
-                            onDisposed: { [weak self] in // onDisposed SIEMPRE se ejecuta
-                            self?.view?.setLoading(false)
-                })
-                .disposed(by: disposeBag)
+                var nreP = person
+                nreP.taggedImages = self?.taggedImage
+                return self?.detailSections(for: nreP) ?? []
+            }
+            .observeOn(MainScheduler.instance)
+            .subscribe(onNext: { [weak self] sections in
+                self?.view?.update(with: sections)
+                },
+                       onDisposed: { [weak self] in // onDisposed SIEMPRE se ejecuta
+                        self?.view?.setLoading(false)
+            })
+            .disposed(by: disposeBag)
     }
     
     func didSelect(item: PosterStripItem) {
@@ -76,6 +78,7 @@ final class PersonPresenter: DetailPresenter {
         
         return detailSections
     }
+
 }
 
 

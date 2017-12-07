@@ -16,6 +16,7 @@ extension DetailHeader {
         
         let firstAirDate = show.firstAirDate.flatMap{ dateFormatter.date(from: $0) }
         let year = (firstAirDate?.year).map { String($0) }
+        let episodesText =  NSLocalizedString("episodes", comment: "")
         let episodes = "\(show.episodes) episodes"
         
         metadata = [year, episodes].flatMap { $0 }.joined(separator: " - ")

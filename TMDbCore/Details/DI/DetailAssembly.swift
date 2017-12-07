@@ -88,8 +88,6 @@ extension DetailAssembly: DetailViewControllerProvider {
             presenter = showPresenter(identifier: identifier)
         case .person:
             presenter = personPresenter(identifier: identifier)
-        default:
-            presenter = DummyDetailPresenter()
         }
         
         return DetailViewController(presenter: presenter,

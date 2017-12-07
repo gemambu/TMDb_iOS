@@ -13,6 +13,7 @@ struct DetailHeader {
 	let metadata: String
 	let posterPath: String?
 	let backdropPath: String?
+
 }
 
 struct PosterStripItem {
