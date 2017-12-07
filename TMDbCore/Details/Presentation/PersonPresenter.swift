@@ -68,12 +68,12 @@ final class PersonPresenter: DetailPresenter {
         
         if let overview = person.biography,
             overview != "" {
-            detailSections.append(.about(title: "Biography", detail: overview))
+            detailSections.append(.about(title: "Biography".localizedString(), detail: overview))
         }
         
         let items = person.credits?.cast.map { PosterStripItem(movie: $0) }
         if let items = items {
-            detailSections.append(.posterStrip(title: "Works", items: items))
+            detailSections.append(.posterStrip(title: "Works".localizedString(), items: items))
         }
         
         return detailSections

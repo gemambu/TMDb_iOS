@@ -58,12 +58,12 @@ final class MoviePresenter: DetailPresenter {
         
         if let overview = movie.overview,
             overview != "" {
-            detailSections.append(.about(title: "Overview", detail: overview))
+            detailSections.append(.about(title: "Overview".localizedString(), detail: overview))
         }
         
         let items = movie.credits?.cast.map { PosterStripItem(castMember: $0) }
         if let items = items {
-            detailSections.append(.posterStrip(title: "Cast", items: items))
+            detailSections.append(.posterStrip(title: "Cast".localizedString(), items: items))
         }
         
         return detailSections

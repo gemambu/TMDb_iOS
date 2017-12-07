@@ -35,7 +35,7 @@ private extension SearchResultPresenter {
 	func present(movie: Movie, in cell: SearchResultCell) {
 		bindImage(at: movie.posterPath, to: cell)
 
-		cell.headlineLabel.text = NSLocalizedString("MOVIE", comment: "")
+		cell.headlineLabel.text = "MOVIE".localizedString()
 		cell.titleLabel.text = movie.title
 
 		let releaseDate = movie.releaseDate.flatMap { dateFormatter.date(from: $0) }
@@ -47,7 +47,7 @@ private extension SearchResultPresenter {
 	func present(show: Show, in cell: SearchResultCell) {
 		bindImage(at: show.posterPath, to: cell)
 
-		cell.headlineLabel.text = NSLocalizedString("TV SHOW", comment: "")
+		cell.headlineLabel.text = "TV_SHOW".localizedString()
 		cell.titleLabel.text = show.title
 
 		let firstAirDate = show.firstAirDate.flatMap { dateFormatter.date(from: $0) }
@@ -59,7 +59,7 @@ private extension SearchResultPresenter {
 	func present(person: Person, in cell: SearchResultCell) {
 		bindImage(at: person.profilePath, to: cell)
 
-		cell.headlineLabel.text = NSLocalizedString("PERSON", comment: "")
+		cell.headlineLabel.text = "PERSON".localizedString()
 		cell.titleLabel.text = person.name
 
 		let metadata = person.knownFor?.first

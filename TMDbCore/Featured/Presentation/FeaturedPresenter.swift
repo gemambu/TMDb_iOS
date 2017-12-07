@@ -31,9 +31,9 @@ final class FeaturedPresenter {
     }
     
     func didLoad() {
-        view?.title = NSLocalizedString("Featured", comment: "")
-        view?.setShowsHeaderTitle(NSLocalizedString("ON TV", comment: ""))
-        view?.setMoviesHeaderTitle(NSLocalizedString("IN THEATERS", comment: ""))
+        view?.title = NSLocalizedString("Featured".localizedString(), comment: "")
+        view?.setShowsHeaderTitle(NSLocalizedString("on_tv".localizedString(), comment: ""))
+        view?.setMoviesHeaderTitle(NSLocalizedString("in_theatres".localizedString(), comment: ""))
         
         loadContents()
     }

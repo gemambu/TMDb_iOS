@@ -22,10 +22,10 @@ extension PosterStripItem {
         
         if movie.mediaType == "tv" {
             mediaType = .show
-            metadata = "show"
+            metadata = "show".localizedString()
         } else {
             mediaType = .movie
-            metadata = "movie"
+            metadata = "movie".localizedString()
         }
         
         title = (movie.title != nil ? movie.title : movie.name != nil ? movie.name : "")!

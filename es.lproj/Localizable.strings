@@ -1,0 +1,17 @@
+
+"episodes" = "episodios";
+"show" = "show";
+"movie" = "película";
+"Overview" = "Resumen";
+"Cast" = "Elenco";
+"Biography" = "Biografía";
+"Works" = "Trabajos";
+"Featured" = "Destacados";
+"on_tv" = "En televisión";
+"in_theatres" = "En cines";
+"Search" = "Buscar";
+"MOVIE" = "PELÍCULA";
+"TV_SHOW" = "SHOW DE TELEVISIÓN";
+"PERSON" = "PERSONA";
+"unknown_media" = "Tipo de medio desconocido: ";
+

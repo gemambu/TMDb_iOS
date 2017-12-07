@@ -31,8 +31,9 @@ extension SearchResult: Decodable {
 		case "person":
 			self = try .person(Person(from: decoder))
 		default:
+            let message = "unknown_media".localizedString() + "\(mediaType)"
 			let context = DecodingError.Context(codingPath: [CodingKeys.mediaType],
-			                                    debugDescription: "Unknown media type: \(mediaType)")
+			                                    debugDescription: message)
 			throw DecodingError.dataCorrupted(context)
 		}
 	}

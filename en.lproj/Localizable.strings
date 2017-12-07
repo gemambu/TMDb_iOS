@@ -1,0 +1,17 @@
+
+"episodes" = "episodes";
+"show" = "show";
+"movie" = "movie";
+"Overview" = "Overview";
+"Cast" = "Cast";
+"Biography" = "Biography";
+"Works" = "Works";
+"Featured" = "Featured";
+"on_tv" = "ON TV";
+"in_theatres" = "IN THEATRES";
+"Search" = "Search";
+"MOVIE" = "MOVIE";
+"TV_SHOW" = "TV SHOW";
+"PERSON" = "PERSON";
+"unknown_media" = "Unknown media type: ";
+
