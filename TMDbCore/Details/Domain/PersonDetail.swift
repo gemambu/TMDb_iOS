@@ -16,7 +16,7 @@ struct PersonDetail: Decodable {
     let biography: String?
     let profilePath: String?
     let credits: CombinedCredits?
-    var taggedImages: TaggedImages?
+    var taggedImages: Page<TaggedImages>?
     
     private enum CodingKeys: String, CodingKey {
         case identifier = "id"

@@ -9,8 +9,6 @@ final class PersonPresenter: DetailPresenter {
     private let identifier: Int64
     private let disposeBag = DisposeBag()
     
-    private var taggedImage: TaggedImages?
-    
     weak var view: DetailView?
     
     init(detailNavigator: DetailNavigator,
@@ -23,28 +21,14 @@ final class PersonPresenter: DetailPresenter {
         self.identifier = identifier
     }
     
-
+    
     func didLoad() {
         view?.setLoading(true)
-        
-             
-        repository
-            .image(withIdentifier: identifier)
-            .map{ [weak self] image in
-                if(image.first != nil){
-                    self?.taggedImage = image.first
-                }
-            }
-            .observeOn(MainScheduler.instance)
-            .subscribe()
-            .disposed(by: disposeBag)
         
         repository
             .person(withIdentifier: identifier)
             .map { [weak self] person in
-                var nreP = person
-                nreP.taggedImages = self?.taggedImage
-                return self?.detailSections(for: nreP) ?? []
+                return self?.detailSections(for: person) ?? []
             }
             .observeOn(MainScheduler.instance)
             .subscribe(onNext: { [weak self] sections in
@@ -78,7 +62,7 @@ final class PersonPresenter: DetailPresenter {
         
         return detailSections
     }
-
+    
 }
 
 

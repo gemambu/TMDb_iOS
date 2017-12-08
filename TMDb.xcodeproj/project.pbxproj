@@ -324,12 +324,12 @@
 		992D27B91F7FFD1F00BA79DE /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				1FDAB1AB1FD72FDA0075E0DD /* CombinedCredits.swift */,
 				992D27BA1F7FFD5E00BA79DE /* DetailSection.swift */,
-				99F0564A1F8A3DBF00A680D8 /* Credits.swift */,
 				99F0564C1F8A3E3100A680D8 /* MovieDetail.swift */,
 				1FDAB1B11FD7FEEF0075E0DD /* ShowDetail.swift */,
 				1FDAB1A51FD72EA40075E0DD /* PersonDetail.swift */,
+				99F0564A1F8A3DBF00A680D8 /* Credits.swift */,
+				1FDAB1AB1FD72FDA0075E0DD /* CombinedCredits.swift */,
 				1FDAB1A71FD72F520075E0DD /* TaggedImages.swift */,
 				99F056531F8A5F9200A680D8 /* DetailHeader+MovieDetail.swift */,
 				1FDAB1A91FD72F720075E0DD /* DetailHeader+PersonDetail.swift */,
