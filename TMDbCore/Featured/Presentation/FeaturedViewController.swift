@@ -113,9 +113,5 @@ extension FeaturedViewController: FeaturedView {
         cardViews.forEach { moviesStackView.addArrangedSubview($0) }
     }
     
-    func hideActivityView() {
-        activityView.stopAnimating();
-        activityView.isHidden = true
-    }
 }
 

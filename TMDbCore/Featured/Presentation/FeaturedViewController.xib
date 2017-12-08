@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,7 +26,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="6In-oz-jlc" userLabel="activity">
-                    <rect key="frame" x="142" y="26" width="37" height="37"/>
+                    <rect key="frame" x="142" y="26" width="37" height="536"/>
                     <color key="color" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                 </activityIndicatorView>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cOB-mT-zVj">
@@ -84,13 +84,12 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="6In-oz-jlc" secondAttribute="bottom" constant="-43" id="230-ON-01M"/>
-                <constraint firstItem="6In-oz-jlc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="142" id="DPR-40-Ded"/>
-                <constraint firstItem="6In-oz-jlc" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Ddv-zm-7cZ"/>
                 <constraint firstItem="cOB-mT-zVj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="KcD-lZ-Gil"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="cOB-mT-zVj" secondAttribute="bottom" id="VFl-js-6a8"/>
+                <constraint firstItem="6In-oz-jlc" firstAttribute="centerX" secondItem="cOB-mT-zVj" secondAttribute="centerX" id="X1n-6c-Zc9"/>
                 <constraint firstItem="cOB-mT-zVj" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="YaQ-ze-nP7"/>
-                <constraint firstItem="6In-oz-jlc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="-178" id="ow6-zg-EhM"/>
+                <constraint firstItem="6In-oz-jlc" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="6" id="sJD-uY-ulO"/>
+                <constraint firstItem="6In-oz-jlc" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="x1P-Rj-ehP"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cOB-mT-zVj" secondAttribute="trailing" id="zAM-9c-U2h"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
