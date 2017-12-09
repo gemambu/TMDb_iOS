@@ -8,9 +8,9 @@ Puntos a completar:
 
 1 - Ocultar el scrollview y mostrar un activity indicator mientras se cargan los contenidos de la pantalla de Featured.
 
-2- Hacer presenter para person detail
+2- Hacer presenter para person detail.
 
-3- Navegación de cast a detalle de persona
+3- Navegación de cast a detalle de persona.
 
 
 ## Detalles para la instalación y ejecución
@@ -36,13 +36,13 @@ Donde _personal-api-key_ es la clave personal para poder acceder al contenido de
 
 Además de los 3 ejercicios obligatorios planteados en la práctica, he añadido las siguientes funcionalidades / detalles.
 
-- Pila de portadas con las películas y/o series más famosas en el detalle de Person. Para esto, se añade a la petición los campos de tagged_images y combined_credits.
+- Pila de portadas con las películas y/o series más famosas en el detalle de **Person**. Para esto, se añade a la petición los campos de _tagged_images_ y _combined_credits_.
 
-- Detalle de Show: Al igual que para película y Persona, se añade el detalle para show de TV.
+- Detalle de **Show**: Al igual que para película y Persona, se añade el detalle para show de TV.
 
-- En detalle de película: si el dato de duración es 0, no se muestra esta información en la cabecera.
+- En detalle de **Movie**: si el dato de duración es 0 minutos (o no est informado), no se muestra este campo en la cabecera.
 
-- Recursos en Inglés y Español.
+- Recursos en Inglés y Español. La aplicación mostrará los textos en Inglés o Español, en función de la localización. Por defecto, el idioma mostrado es Inglés.
 
 - Logo para la aplicación. Diseñado con [Logojoy](https://logojoy.com). Iconos creados con [Makeappicon](https://makeappicon.com/)
 
