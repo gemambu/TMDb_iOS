@@ -50,9 +50,9 @@ Además de los 3 ejercicios obligatorios planteados en la práctica, he añadido
 
 Demo en Inglés:
 
-![](https://giphy.com/gifs/3oxHQwYaOjCjDh3KLe)
+![](https://media.giphy.com/media/3oxHQwYaOjCjDh3KLe/giphy.gif)
 
 Demo en Español:
 
-![](https://giphy.com/gifs/3oxHQBXSCsIg1g4GHK)
+![](https://media.giphy.com/media/3oxHQBXSCsIg1g4GHK/giphy.gif)
 
