@@ -2,7 +2,7 @@
 
 ## Enunciado
 
-Completar la funcionalidad de la aplicación cedida por el profesor Guillermo González. El core de la aplicación es mostrar el contenido del API de la página [The Movie Database](https://www.themoviedb.org/).
+Completar la funcionalidad de la aplicación cedida por el profesor (Guillermo González)[https://github.com/gonzalezreal]. El core de la aplicación es mostrar el contenido del API de la página [The Movie Database](https://www.themoviedb.org/).
 
 Puntos a completar:
 
