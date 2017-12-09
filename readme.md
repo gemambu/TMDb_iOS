@@ -49,15 +49,14 @@ Además de los 3 ejercicios obligatorios planteados en la práctica, he añadido
 ### Demos
 
 
-[Demo en Inglés](https://media.giphy.com/media/3oxHQwYaOjCjDh3KLe/giphy.gif)
+[Demo en Inglés](https://media.giphy.com/media/3oxHQA09c0uoWRtYoo/giphy.gif)
 
-![](https://media.giphy.com/media/3oxHQwYaOjCjDh3KLe/giphy.gif)
+![](https://media.giphy.com/media/3oxHQA09c0uoWRtYoo/giphy.gif)
 
 
-[Demo en Español](https://media.giphy.com/media/3oxHQBXSCsIg1g4GHK/giphy.gif)
+[Demo en Español](https://media.giphy.com/media/3oxHQCnhFXzyS9L62k/giphy.gif)
 
-![](https://media.giphy.com/media/3oxHQBXSCsIg1g4GHK/giphy.gif)
+![](https://media.giphy.com/media/3oxHQCnhFXzyS9L62k/giphy.gif)
 
-![](https://media.giphy.com/media/3o6fJ5c04XuQEX2nBe/giphy.gif)
 
 
