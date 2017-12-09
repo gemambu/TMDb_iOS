@@ -52,7 +52,4 @@ Además de los 3 ejercicios obligatorios planteados en la práctica, he añadido
 
 ![](https://media.giphy.com/media/3oxHQwYaOjCjDh3KLe/giphy.gif)
 
-[Demo en Español](https://media.giphy.com/media/3oxHQBXSCsIg1g4GHK/giphy.gif)
-
-![](https://media.giphy.com/media/3oxHQBXSCsIg1g4GHK/giphy.gif)
 
