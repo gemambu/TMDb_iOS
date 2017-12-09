@@ -24,7 +24,7 @@ final class CardPresenter {
 
 		cardView.titleLabel.text = movie.title.uppercased()
 
-		let genre = movie.genreIdentifiers?.first.flatMap(Genre.name)
+		let genre = movie.genreIdentifiers?.first.flatMap(Genre.name)?.localizedString()
 
 		let releaseDate = movie.releaseDate.flatMap { dateFormatter.date(from: $0) }
 		let year = (releaseDate?.year).flatMap { String($0) }
@@ -37,7 +37,7 @@ final class CardPresenter {
 
 		cardView.titleLabel.text = show.title.uppercased()
 
-		let genre = show.genreIdentifiers?.first.flatMap(Genre.name)
+		let genre = show.genreIdentifiers?.first.flatMap(Genre.name)?.localizedString()
 
 		let firstAirDate = show.firstAirDate.flatMap { dateFormatter.date(from: $0) }
 		let year = (firstAirDate?.year).flatMap { String($0) }

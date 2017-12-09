@@ -16,9 +16,10 @@ extension DetailHeader {
         
         let firstAirDate = show.firstAirDate.flatMap{ dateFormatter.date(from: $0) }
         let year = (firstAirDate?.year).map { String($0) }
-        let episodes = "\(show.episodes)" + "episodes".localizedString()
+        let episodes = "\(show.episodes ?? 0 )" + "episodes".localizedString()
+        let seasons = "\(show.seasons ?? 0)" + "seasons".localizedString()
         
-        metadata = [year, episodes].flatMap { $0 }.joined(separator: " - ")
+        metadata = [year, seasons, episodes].flatMap { $0 }.joined(separator: " · ")
         
         
     }

@@ -1,5 +1,6 @@
 
-"episodes" = "episodios";
+"episodes" = " episodios";
+"seasons" = " temporadas";
 "show" = "show";
 "movie" = "película";
 "Overview" = "Resumen";
@@ -14,4 +15,31 @@
 "TV_SHOW" = "SHOW DE TELEVISIÓN";
 "PERSON" = "PERSONA";
 "unknown_media" = "Tipo de medio desconocido: ";
-
+"Action" = "Acción";
+"Adventure" = "Aventura";
+"Animation" = "Animación";
+"Comedy" = "Comedia";
+"Crime" = "Crimen";
+"Documentary" = "Documental";
+"Drama" = "Drama";
+"Family" = "Familiar";
+"Fantasy" = "Fantasía";
+"Foreign" = "Foreign";
+"History" = "Historia";
+"Horror" = "Horror";
+"Music" = "Música";
+"Mystery" = "Misterio";
+"Romance" = "Romance";
+"ScienceFiction" = "Ciencia Ficción";
+"TVMovie" = "Película de TV";
+"Thriller" = "Thriller";
+"War" = "Guerra";
+"Western" = "Del Oeste";
+"Action&Adventure" = "Acción y Aventura";
+"Kids" = "Niños";
+"News" = "Noticias";
+"Reality" = "Reality";
+"Sci-Fi&Fantasy" = "Ciencia Ficción y Fantasía";
+"Soap" = "Telenovela";
+"Talk" = "Entrevistas";
+"War&Politics" = "Guerra y política";

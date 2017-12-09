@@ -1,5 +1,6 @@
 
-"episodes" = "episodes";
+"episodes" = " episodes";
+"seasons" = " seasons";
 "show" = "show";
 "movie" = "movie";
 "Overview" = "Overview";
@@ -14,4 +15,32 @@
 "TV_SHOW" = "TV SHOW";
 "PERSON" = "PERSON";
 "unknown_media" = "Unknown media type: ";
+"Action" = "Action";
+"Adventure" = "Adventure";
+"Animation" = "Animation";
+"Comedy" = "Comedy";
+"Crime" = "Crime";
+"Documentary" = "Documentary";
+"Drama" = "Drama";
+"Family" = "Family";
+"Fantasy" = "Fantasy";
+"Foreign" = "Foreign";
+"History" = "History";
+"Horror" = "Horror";
+"Music" = "Music";
+"Mystery" = "Mystery";
+"Romance" = "Romance";
+"ScienceFiction" = "ScienceFiction";
+"TVMovie" = "TVMovie";
+"Thriller" = "Thriller";
+"War" = "War";
+"Western" = "Western";
+"Action&Adventure" = "Action&Adventure";
+"Kids" = "Kids";
+"News" = "News";
+"Reality" = "Reality";
+"Sci-Fi&Fantasy" = "Sci-Fi&Fantasy";
+"Soap" = "Soap";
+"Talk" = "Talk";
+"War&Politics" = "War&Politics";
 
