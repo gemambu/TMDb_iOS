@@ -46,4 +46,13 @@ Además de los 3 ejercicios obligatorios planteados en la práctica, he añadido
 
 - Logo para la aplicación. Diseñado con [Logojoy](https://logojoy.com). Iconos creados con [Makeappicon](https://makeappicon.com/)
 
+### Demos
+
+Demo en Inglés:
+
+[](https://giphy.com/gifs/3oxHQwYaOjCjDh3KLe)
+
+Demo en Español:
+
+[](https://giphy.com/gifs/3oxHQBXSCsIg1g4GHK)
 
