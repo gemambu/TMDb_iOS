@@ -186,7 +186,6 @@
 		1FDAB1B91FD9DAFC0075E0DD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		1FDAB1C31FD9DBAB0075E0DD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1FDAB1C41FD9DBB90075E0DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		1FDAB1C51FD9E4060075E0DD /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 		9923A74B1F8A664C00D3A6F7 /* PosterStripItem+CastMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PosterStripItem+CastMember.swift"; sourceTree = "<group>"; };
 		9923A74D1F8A70EA00D3A6F7 /* FeaturedPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPresenterTest.swift; sourceTree = "<group>"; };
 		9923A74F1F8A71DD00D3A6F7 /* DetailNavigatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNavigatorMock.swift; sourceTree = "<group>"; };
@@ -321,6 +320,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F75B9781FDC588400D1D82B /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				1FDAB1C01FD9DB7C0075E0DD /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		992D27B91F7FFD1F00BA79DE /* Domain */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,6 +381,7 @@
 		996690BA1F7A966E00AF16B3 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				1F75B9781FDC588400D1D82B /* Localization */,
 				997A44221F7AA75A0094E928 /* Date+Utilities.swift */,
 				996690BD1F7A968800AF16B3 /* NibLoadableView.swift */,
 				996690BC1F7A968700AF16B3 /* ReusableView.swift */,
@@ -446,8 +454,6 @@
 		9995F3021F73A228009BA4D7 = {
 			isa = PBXGroup;
 			children = (
-				1FDAB1C51FD9E4060075E0DD /* Location.gpx */,
-				1FDAB1C01FD9DB7C0075E0DD /* Localizable.strings */,
 				9995F30D1F73A228009BA4D7 /* TMDb */,
 				9995F3221F73A229009BA4D7 /* TMDbTests */,
 				9995F3691F73A4E2009BA4D7 /* TMDbCore */,
